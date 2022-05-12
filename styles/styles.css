@@ -1,0 +1,28 @@
+:root {
+  --main-body-background: #757575;
+  --input-output-background: #fff;
+  --input-output-border: #000;
+}
+
+/* Основное тело калькулятора */
+
+.main-body{
+      width: 336px;
+    height: 554px;
+    /* Размеры */
+    background: var(--main-body-background);
+    /* Цвет фона */
+    outline: 2px solid #000;
+    /* Чёрная рамка */
+    border: 3px solid #fff;
+    /* Белая рамка */
+    border-radius: 10px;
+    /* Радиус скругления */
+}
+
+.input-output{
+  margin: 16px 16px 64px 16px;
+  background: var(--input-output-background);
+  border: 2px solid var(--input-output-border);
+  border-radius: 5px;
+}
