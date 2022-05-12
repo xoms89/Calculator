@@ -20,9 +20,41 @@
     /* Радиус скругления */
 }
 
+/* Поле ввода-вывода */
+
 .input-output{
   margin: 16px 16px 64px 16px;
   background: var(--input-output-background);
   border: 2px solid var(--input-output-border);
   border-radius: 5px;
+}
+
+.inp {
+  width: 97%;
+  height: 48px;
+  text-align: right;
+}
+
+.output{
+  /* margin-right: 1px; */
+  text-align: right;
+}
+
+/* Клавиатура */
+
+.one-nine{
+  width: 200px;
+  height: 268px;
+  margin: 0px 4px 4px 4px;
+  }
+
+
+
+.number-keys{
+  width: 64px;
+  height: 64px;
+}
+
+.zero{
+  width: 200px;
 }
