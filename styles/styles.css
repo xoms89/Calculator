@@ -42,6 +42,11 @@
 
 /* Клавиатура */
 
+.keyboard{
+  display: flex;
+  flex-direction: row;
+}
+
 .one-nine{
   width: 200px;
   height: 268px;
@@ -50,11 +55,24 @@
 
 
 
-.number-keys{
+.number-keys, .function-cays{
   width: 64px;
   height: 64px;
 }
 
-.zero{
+
+.keys-block {
+  flex-direction: column;
+}
+
+
+.zero, .equals {
   width: 200px;
 }
+
+.functions{
+  display: flex;
+  flex-direction: column;
+}
+
+
