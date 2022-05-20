@@ -13,7 +13,9 @@
       <h1>Калькулятор</h1>
       <div class="main-body">
         <div class="input-output">
-          <input type="number" name="" id="" class="inp" />
+          <form name="form">
+            <input type="text" name="textview" class="inp" readonly />
+          </form>
           <p class="output">0</p>
         </div>
         <div class="keyboard">
@@ -33,12 +35,34 @@
             <button type="button" class="equals function-cays">=</button>
           </div>
           <div class="functions">
-            <button type="button" class="plus function-cays">+</button>
-            <button type="button" class="minus function-cays">-</button>
-            <button type="button" class="multiplication function-cays">
+            <button
+              type="button"
+              class="plus function-cays"
+              onclick="insert('+')"
+            >
+              +
+            </button>
+            <button
+              type="button"
+              class="minus function-cays"
+              onclick="insert('-')"
+            >
+              -
+            </button>
+            <button
+              type="button"
+              class="multiplication function-cays"
+              onclick="insert('*')"
+            >
               *
             </button>
-            <button type="button" class="division function-cays">/</button>
+            <button
+              type="button"
+              class="division function-cays"
+              onclick="insert('/')"
+            >
+              /
+            </button>
             <button type="button" class="reset function-cays">C</button>
           </div>
         </div>
